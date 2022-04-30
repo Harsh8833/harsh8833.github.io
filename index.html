@@ -1,237 +1,209 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,, initial-scale=1">
-    <title>Harsh Raj</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet" />
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: "Poppins", sans-serif;
-        }
-        
-        body {
-            background-color: #ffffff;
-        }
-        
-        .button {
-            background-color: #4CAF50;
-            /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
-        
-        .heading-div {
+<html>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width" />
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    /* Responsive columns - one column layout (vertical) on small screens */
+    
+    @media only screen and (max-width: 768px) {
+        .column {
             width: 100%;
-            text-align: center;
-            color: #ffffff;
-            position: absolute;
-            transform: translate(-50%, -50%);
-            top: 50%;
-            left: 50%;
-            font-weight: 800;
+            display: block;
+            margin-bottom: 20px;
         }
-        
-        .heading-div-span {
-            font-size: 22vw;
-            text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.7);
+        body {
+            background-image: linear-gradient(to right top, #9ea0ff, #aa93f8, #b885ee, #c575e1, #d164d1);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
         }
-        
-        .heading-div-span:not(:first-child) {
-            margin-left: -0.18em;
-        }
-    </style>
+    }
+    
+    body {
+        background-image: linear-gradient(to right top, #8284fd, #9777f5, #aa68ea, #bc56dd, #cc40cc);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+    h1 {
+        font-family: 'Poppins';
+        color: whitesmoke;
+        font-size: 70px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 100px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    h6 {
+        font-family: 'Poppins';
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 50;
+        text-align: center;
+        margin: 0px 0px 80px 0px;
+    }
+    
+    .minihead {
+        font-family: 'Poppins';
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    hr {
+        height: 1px;
+        border-width: 0;
+        color: whitesmoke;
+        background-color: whitesmoke
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Float three columns side by side */
+    
+    .column {
+        float: left;
+        width: 33.3%;
+        padding: 0 10px;
+    }
+    /* Remove extra left and right margins, due to padding in columns */
+    
+    .row {
+        margin: 0 -5px;
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Style the counter cards */
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        /* this adds the "card" effect */
+        padding: 16px;
+        text-align: center;
+    }
+    /* Style the hover effect */
+    
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    }
+    /* Social media icons */
+    
+    .fa {
+        margin: 10px;
+        font-size: 50px;
+        width: 50px;
+        color: #4D3476;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    .center {
+        margin: 0 auto;
+    }
+    
+    .bodytext {
+        color: whitesmoke;
+        font-family: 'poppins';
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .skilllist {
+        color: whitesmoke;
+        font-family: 'poppins';
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-left: 30%;
+    }
+</style>
 
-</head>
+
 
 <body>
 
-    <a href="https://github.com/Harsh8833/harsh8833.github.io/raw/main/app-release.apk" class="button">Download Android Club App</a>
+
+    <h6>Under Construction</h6>
+    <h1>HARSH RAJ</h1>
+    <h6>A 19 years old wizard learning skills everyday</h6>
+
+
+    <p style="text-align:center">
+        <a href="https://github.com/Harsh8833" class="fa fa-github"></a>
+        <a href="https://g.dev/Harsh8833" class="fa fa-google"></a>
+        <a href="mailto:harsh.raj8833@gmail.com" class="fa fa-envelope"></a>
+        <a href="https://www.instagram.com/mr_harsh_verma_/" class="fa fa-instagram"></a>
+        <a href="https://wa.me/916200771718" class="fa fa-whatsapp"></a>
+    </p>
 
 
 
-
-
-    <div id="inner-wrap"><svg class="waves" xmlns="http://www.w3.org/2000/svg" width="1440" height="321.75" viewBox="0 0 960 214.5" preserveAspectRatio="xMinYMid meet">
-            <defs>
-                <style>
-                    .waves>path {
-                        -webkit-animation: a 17390ms ease-in-out infinite alternate-reverse both;
-                        -moz-animation: a 17390ms ease-in-out infinite alternate-reverse both;
-                        -ms-animation: a 17390ms ease-in-out infinite alternate-reverse both;
-                        -o-animation: a 17390ms ease-in-out infinite alternate-reverse both;
-                        animation: a 17390ms ease-in-out infinite alternate-reverse both;
-                        -webkit-animation-timing-function: cubic-bezier(.25, 0, .75, 1);
-                        -moz-animation-timing-function: cubic-bezier(.25, 0, .75, 1);
-                        -ms-animation-timing-function: cubic-bezier(.25, 0, .75, 1);
-                        -o-animation-timing-function: cubic-bezier(.25, 0, .75, 1);
-                        animation-timing-function: cubic-bezier(.25, 0, .75, 1);
-                        -webkit-will-change: transform;
-                        -moz-will-change: transform;
-                        -ms-will-change: transform;
-                        -o-will-change: transform;
-                        will-change: transform
-                    }
-
-                    .waves>path:nth-of-type(1) {
-                        -webkit-animation-duration: 20580ms;
-                        -moz-animation-duration: 20580ms;
-                        -ms-animation-duration: 20580ms;
-                        -o-animation-duration: 20580ms;
-                        animation-duration: 20580ms
-                    }
-
-                    .waves>path:nth-of-type(2) {
-                        -webkit-animation-delay: -2690ms;
-                        -moz-animation-delay: -2690ms;
-                        -ms-animation-delay: -2690ms;
-                        -o-animation-delay: -2690ms;
-                        animation-delay: -2690ms;
-                        -webkit-animation-duration: 13580ms;
-                        -moz-animation-duration: 13580ms;
-                        -ms-animation-duration: 13580ms;
-                        -o-animation-duration: 13580ms;
-                        animation-duration: 13580ms
-                    }
-
-                    g>path:nth-of-type(1) {
-                        -webkit-animation-delay: -820ms;
-                        -moz-animation-delay: -820ms;
-                        -ms-animation-delay: -820ms;
-                        -o-animation-delay: -820ms;
-                        animation-delay: -820ms;
-                        -webkit-animation-duration: 10730ms;
-                        -moz-animation-duration: 10730ms;
-                        -ms-animation-duration: 10730ms;
-                        -o-animation-duration: 10730ms;
-                        animation-duration: 10730ms
-                    }
-
-                    .waves>path:nth-of-type(1),
-                    g>path:nth-of-type(2) {
-                        -webkit-animation-direction: alternate;
-                        -moz-animation-direction: alternate;
-                        -ms-animation-direction: alternate;
-                        -o-animation-direction: alternate;
-                        animation-direction: alternate
-                    }
-
-                    @-webkit-keyframes a {
-                        0% {
-                            -webkit-transform: translateX(-750px);
-                            transform: translateX(-750px)
-                        }
-
-                        100% {
-                            -webkit-transform: translateX(-20px);
-                            transform: translateX(-20px)
-                        }
-                    }
-
-                    @-moz-keyframes a {
-                        0% {
-                            -moz-transform: translateX(-750px);
-                            transform: translateX(-750px)
-                        }
-
-                        100% {
-                            -moz-transform: translateX(-20px);
-                            transform: translateX(-20px)
-                        }
-                    }
-
-                    @-ms-keyframes a {
-                        0% {
-                            -ms-transform: translateX(-750px);
-                            transform: translateX(-750px)
-                        }
-
-                        100% {
-                            -ms-transform: translateX(-20px);
-                            transform: translateX(-20px)
-                        }
-                    }
-
-                    @-o-keyframes a {
-                        0% {
-                            -o-transform: translateX(-750px);
-                            transform: translateX(-750px)
-                        }
-
-                        100% {
-                            -o-transform: translateX(-20px);
-                            transform: translateX(-20px)
-                        }
-                    }
-
-                    @keyframes a {
-                        0% {
-                            -webkit-transform: translateX(-750px);
-                            -moz-transform: translateX(-750px);
-                            -ms-transform: translateX(-750px);
-                            -o-transform: translateX(-750px);
-                            transform: translateX(-750px)
-                        }
-
-                        100% {
-                            -webkit-transform: translateX(-20px);
-                            -moz-transform: translateX(-20px);
-                            -ms-transform: translateX(-20px);
-                            -o-transform: translateX(-20px);
-                            transform: translateX(-20px)
-                        }
-                    }
-                </style>
-                <linearGradient id="a">
-                    <stop stop-color="#00A8DE" />
-                    <stop offset="0.2" stop-color="#333391" />
-                    <stop offset="0.4" stop-color="#E91388" />
-                    <stop offset="0.6" stop-color="#EB2D2E" />
-                </linearGradient>
-            </defs>
-
-            <path fill="url(#a)"
-                d="M2662.6 1S2532 41.2 2435 40.2c-19.6-.2-37.3-1.3-53.5-2.8 0 0-421.3-59.4-541-28.6-119.8 30.6-206.2 75.7-391 73.3-198.8-2-225.3-15-370.2-50-145-35-218 37-373.3 36-19.6 0-37.5-1-53.7-3 0 0-282.7-36-373.4-38C139 26 75 46-1 46v106c17-1.4 20-2.3 37.6-1.2 130.6 8.4 210 56.3 287 62.4 77 6 262-25 329.3-23.6 67 1.4 107 22.6 193 23.4 155 1.5 249-71 380-62.5 130 8.5 209 56.3 287 62.5 77 6 126-18 188-18 61.4 0 247-38 307.4-46 159.3-20 281.2 29 348.4 30 67 2 132.2 6 217.4 7 39.3 0 87-11 87-11V1z" />
-            <path fill="#F2F5F5"
-                d="M2663.6 73.2S2577 92 2529 89c-130.7-8.5-209.5-56.3-286.7-62.4s-125.7 18-188.3 18c-5 0-10-.4-14.5-.7-52-5-149.2-43-220.7-39-31.7 2-64 14-96.4 30-160.4 80-230.2-5.6-340.4-18-110-12-146.6 20-274 36S820.4 0 605.8 0C450.8 0 356 71 225.2 62.2 128 56 60.7 28-.3 11.2V104c22 7.3 46 14.2 70.4 16.7 110 12.3 147-19.3 275-35.5s350 39.8 369 43c27 4.3 59 8 94 10 13 .5 26 1 39 1 156 2 250-70.3 381-62 130.5 8.2 209.5 56.3 286.7 62 77 6.4 125.8-18 188.3-17.5 5 0 10 .2 14.3.6 52 5 145 49.5 220.7 38.2 32-5 64-15 96.6-31 160.5-79.4 230.3 6 340 18.4 110 12 146.3-20 273.7-36l15.5-2V73l1-.5z" />
-            <g fill="none" stroke="#E2E9E9" stroke-width="1">
-                <path
-                    d="M0 51.4c3.4.6 7.7 1.4 11 2.3 133.2 34 224.3 34 308.6 34 110.2 0 116.7 36.6 229.8 26 113-11 128.7-44 222-42.6C865 73 889 38 1002 27c113-10.8 119.6 25.6 229.8 25.6 84.4 0 175.4 0 308.6 34 133 34.2 277-73 379.4-84.3 204-22.5 283.6 128.7 283.6 128.7" />
-                <path
-                    d="M0 6C115.7-6 198.3 76.6 308 76.6c109.6 0 131.8-20 223-28.3 114.3-10.2 238.2 0 238.2 0s124 10.2 238.3 0c91-8.2 113.2-28 223-28S1425 103 1541 91c115.8-11.8 153.3-69 269.3-84.6 116-15.5 198.4 71 308 71 109.8 0 131.8-20 223-28 114-10.2 237.7 0 237.7 0s37.4 2.4 82.8 3.7" />
-            </g>
-        </svg>
-    </div>
-    </a>
-
-    <header>
-        <div class="heading-div">
-            <span class="heading-div-span">M</span>
-            <span class="heading-div-span">A</span>
-            <span class="heading-div-span">G</span>
-            <span class="heading-div-span">I</span>
-            <span class="heading-div-span">C</span>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <p class="minihead">About me</p>
+                <hr>
+                <p class="bodytext">
+                    I'm a student of computer science at Vellore Institute of Technology, Bhopal
+                </p>
+            </div>
         </div>
-    </header>
+        <div class="column">
+            <div class="card">
+                <p class="minihead">Skills</p>
+                <hr>
+                <p style="text-align:center">
+                    <p class="skilllist"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDI3N0JEIiBkPSJNMjQuMDQ3LDVjLTEuNTU1LDAuMDA1LTIuNjMzLDAuMTQyLTMuOTM2LDAuMzY3Yy0zLjg0OCwwLjY3LTQuNTQ5LDIuMDc3LTQuNTQ5LDQuNjdWMTRoOXYySDE1LjIyaC00LjM1Yy0yLjYzNiwwLTQuOTQzLDEuMjQyLTUuNjc0LDQuMjE5Yy0wLjgyNiwzLjQxNy0wLjg2Myw1LjU1NywwLDkuMTI1QzUuODUxLDMyLjAwNSw3LjI5NCwzNCw5LjkzMSwzNGgzLjYzMnYtNS4xMDRjMC0yLjk2NiwyLjY4Ni01Ljg5Niw1Ljc2NC01Ljg5Nmg3LjIzNmMyLjUyMywwLDUtMS44NjIsNS00LjM3N3YtOC41ODZjMC0yLjQzOS0xLjc1OS00LjI2My00LjIxOC00LjY3MkMyNy40MDYsNS4zNTksMjUuNTg5LDQuOTk0LDI0LjA0Nyw1eiBNMTkuMDYzLDljMC44MjEsMCwxLjUsMC42NzcsMS41LDEuNTAyYzAsMC44MzMtMC42NzksMS40OTgtMS41LDEuNDk4Yy0wLjgzNywwLTEuNS0wLjY2NC0xLjUtMS40OThDMTcuNTYzLDkuNjgsMTguMjI2LDksMTkuMDYzLDl6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGQzEwNyIgZD0iTTIzLjA3OCw0M2MxLjU1NS0wLjAwNSwyLjYzMy0wLjE0MiwzLjkzNi0wLjM2N2MzLjg0OC0wLjY3LDQuNTQ5LTIuMDc3LDQuNTQ5LTQuNjdWMzRoLTl2LTJoOS4zNDNoNC4zNWMyLjYzNiwwLDQuOTQzLTEuMjQyLDUuNjc0LTQuMjE5YzAuODI2LTMuNDE3LDAuODYzLTUuNTU3LDAtOS4xMjVDNDEuMjc0LDE1Ljk5NSwzOS44MzEsMTQsMzcuMTk0LDE0aC0zLjYzMnY1LjEwNGMwLDIuOTY2LTIuNjg2LDUuODk2LTUuNzY0LDUuODk2aC03LjIzNmMtMi41MjMsMC01LDEuODYyLTUsNC4zNzd2OC41ODZjMCwyLjQzOSwxLjc1OSw0LjI2Myw0LjIxOCw0LjY3MkMxOS43MTksNDIuNjQxLDIxLjUzNiw0My4wMDYsMjMuMDc4LDQzeiBNMjguMDYzLDM5Yy0wLjgyMSwwLTEuNS0wLjY3Ny0xLjUtMS41MDJjMC0wLjgzMywwLjY3OS0xLjQ5OCwxLjUtMS40OThjMC44MzcsMCwxLjUsMC42NjQsMS41LDEuNDk4QzI5LjU2MywzOC4zMiwyOC44OTksMzksMjguMDYzLDM5eiI+PC9wYXRoPjwvc3ZnPg=="
+                        /> Python
+                    </p>
+                    <p class="skilllist"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDA1NDlkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi45MDMsMy4yODZjMC42NzktMC4zODEsMS41MTUtMC4zODEsMi4xOTMsMCBjMy4zNTUsMS44ODMsMTMuNDUxLDcuNTUxLDE2LjgwNyw5LjQzNEM0Mi41ODIsMTMuMSw0MywxMy44MDQsNDMsMTQuNTY2YzAsMy43NjYsMCwxNS4xMDEsMCwxOC44NjcgYzAsMC43NjItMC40MTgsMS40NjYtMS4wOTcsMS44NDdjLTMuMzU1LDEuODgzLTEzLjQ1MSw3LjU1MS0xNi44MDcsOS40MzRjLTAuNjc5LDAuMzgxLTEuNTE1LDAuMzgxLTIuMTkzLDAgYy0zLjM1NS0xLjg4My0xMy40NTEtNy41NTEtMTYuODA3LTkuNDM0QzUuNDE4LDM0Ljg5OSw1LDM0LjE5Niw1LDMzLjQzNGMwLTMuNzY2LDAtMTUuMTAxLDAtMTguODY3IGMwLTAuNzYyLDAuNDE4LTEuNDY2LDEuMDk3LTEuODQ3QzkuNDUxLDEwLjgzNywxOS41NDksNS4xNjksMjIuOTAzLDMuMjg2eiIgY2xpcC1ydWxlPSJldmVub2RkIj48L3BhdGg+PHBhdGggZmlsbD0iIzAwODZkNCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS4zMDQsMzQuNDA0QzUuMDM4LDM0LjA0OCw1LDMzLjcxLDUsMzMuMjU1IGMwLTMuNzQ0LDAtMTUuMDE0LDAtMTguNzU5YzAtMC43NTgsMC40MTctMS40NTgsMS4wOTQtMS44MzZjMy4zNDMtMS44NzIsMTMuNDA1LTcuNTA3LDE2Ljc0OC05LjM4IGMwLjY3Ny0wLjM3OSwxLjU5NC0wLjM3MSwyLjI3MSwwLjAwOGMzLjM0MywxLjg3MiwxMy4zNzEsNy40NTksMTYuNzE0LDkuMzMxYzAuMjcsMC4xNTIsMC40NzYsMC4zMzUsMC42NiwwLjU3Nkw1LjMwNCwzNC40MDR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNCwxMGM3LjcyNywwLDE0LDYuMjczLDE0LDE0cy02LjI3MywxNC0xNCwxNCBzLTE0LTYuMjczLTE0LTE0UzE2LjI3MywxMCwyNCwxMHogTTI0LDE3YzMuODYzLDAsNywzLjEzNiw3LDdjMCwzLjg2My0zLjEzNyw3LTcsN3MtNy0zLjEzNy03LTdDMTcsMjAuMTM2LDIwLjEzNiwxNywyNCwxN3oiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMDc1YzAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQyLjQ4NSwxMy4yMDVjMC41MTYsMC40ODMsMC41MDYsMS4yMTEsMC41MDYsMS43ODQgYzAsMy43OTUtMC4wMzIsMTQuNTg5LDAuMDA5LDE4LjM4NGMwLjAwNCwwLjM5Ni0wLjEyNywwLjgxMy0wLjMyMywxLjEyN0wyMy41OTMsMjRMNDIuNDg1LDEzLjIwNXoiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMxIDIxSDMzVjI3SDMxek0zOCAyMUg0MFYyN0gzOHoiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI5IDIzSDM1VjI1SDI5ek0zNiAyM0g0MlYyNUgzNnoiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PC9wYXRoPjwvc3ZnPg=="
+                        /> C
+                    </p>
+                    <p class="skilllist"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cG9seWdvbiBmaWxsPSIjMGQ5MWQ2IiBwb2ludHM9IjI0LDYgMTcuOTksMTIuMzUgMTEuOTcsMTguNjkgNiwyNSA2LDYiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjZjg4OTA5IiBwb2ludHM9IjI0LDYgMjMuOTYsNiAxNy45NywxMi4zMyAxMS45NiwxOC42OCA2LDI0Ljk3IDYsMjUgNiwyNS4wOSA2LDQyIDE0LjY5LDMzLjMxIDIwLjg3LDI3LjEzIDI3LjA2LDIwLjk0IDMzLjI1LDE0Ljc1IDQyLDYiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjYzc1N2JjIiBwb2ludHM9IjE0LjY5LDMzLjMxIDYsNDIgNiwyNS4wOSI+PC9wb2x5Z29uPjxwb2x5Z29uIGZpbGw9IiNkMzYzOGYiIHBvaW50cz0iMjAuODcsMjcuMTMgMTQuNjksMzMuMzEgNiwyNS4wOSA2LDI1IDExLjk3LDE4LjY5Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iI2UwNzA2MyIgcG9pbnRzPSIyNy4wNiwyMC45NCAyMC44NywyNy4xMyAxMS45NywxOC42OSAxNy45OSwxMi4zNSI+PC9wb2x5Z29uPjxwb2x5Z29uIGZpbGw9IiNlYzdkMzYiIHBvaW50cz0iMzMuMjUsMTQuNzUgMjcuMDYsMjAuOTQgMTcuOTksMTIuMzUgMjQsNiI+PC9wb2x5Z29uPjxwb2x5Z29uIGZpbGw9IiNmODg5MDkiIHBvaW50cz0iNDIsNiAzMy4yNSwxNC43NSAyNCw2Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzAwOTVkNSIgcG9pbnRzPSIxMS41MSwxOS4xNSA3Ljk5LDIyLjg4IDYsMjEgNiwxMy45NCI+PC9wb2x5Z29uPjxwb2x5Z29uIGZpbGw9IiMyYjg4ZGEiIHBvaW50cz0iMTUuMDMsMTUuNDIgMTEuNTEsMTkuMTUgNiwxMy45NCA2LDYuODciPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjNTU3YmRlIiBwb2ludHM9IjE4LjU2LDExLjcgMTUuMDMsMTUuNDIgNiw2Ljg3IDYsNiAxMi41Myw2Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzgwNmVlMyIgcG9pbnRzPSIyMi4wOCw3Ljk3IDE4LjU2LDExLjcgMTIuNTMsNiAyNCw2Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzAwOTVkNSIgcG9pbnRzPSIyMywyNSA2LDQyIDkuMzUsNDIgMTcuNTIsNDIgNDAsNDIiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjMmI4OGRhIiBwb2ludHM9IjI1LjY4LDQyIDE3LjUyLDQyIDExLjc2LDM2LjI1IDE1Ljg0LDMyLjE3Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzU1N2JkZSIgcG9pbnRzPSIzMy44Niw0MiAyNS42OCw0MiAxNS44NCwzMi4xNyAxOS45MiwyOC4wOSI+PC9wb2x5Z29uPjxwb2x5Z29uIGZpbGw9IiM4MDZlZTMiIHBvaW50cz0iNDIsNDIgMzMuODYsNDIgMTkuOTIsMjguMDkgMjQsMjQiPjwvcG9seWdvbj48L3N2Zz4="
+                        /> Kotlin
+                    </p>
+                    <p class="skilllist"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDI3N2JkIiBkPSJNMTkuODQ3LDQxLjk1NmMtNS42MjktMC4wMDItMTEuMjU5LDAuMDI0LTE2Ljg4OC0wLjAxM2MtMi44NTUtMC4wMTktMy4zNzQtMC43LTIuNzMxLTMuNTI1IGMyLjE3OC05LjU4LDQuNDI3LTE5LjE0Myw2LjU1Ny0yOC43MzRDNy4zNTYsNy4xMTIsOC41ODgsNS45NzUsMTEuMzEyLDZDMjIuNTcsNi4xMDYsMzMuODI5LDYuMDM0LDQ1LjA4OCw2LjA0NiBjMi44MjQsMC4wMDMsMy4yOTgsMC42MTQsMi42NjQsMy41MTFjLTIuMDU4LDkuNDA2LTQuMTI5LDE4LjgwOS02LjIzNiwyOC4yMDNjLTAuNzg5LDMuNTE2LTEuNjk3LDQuMTg3LTUuMzUzLDQuMTk1IEMzMC43MjQsNDEuOTY2LDI1LjI4NSw0MS45NTgsMTkuODQ3LDQxLjk1NnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmFmYWZhIiBkPSJNMjUuMDU3IDIzLjkyMmMtLjYwOC0uNjg3LTEuMTE0LTEuMjY3LTEuNTMxLTEuNzMyLTIuNDMtMi43MjgtNC42NTYtNS4yNy03LjA2My03Ljg2OS0xLjEwMi0xLjE4OS0xLjQ1My0yLjM0NC0uMTMtMy41MTggMS4zMDctMS4xNiAyLjU5Mi0xLjA1OCAzLjc5MS4yNzcgMy4zNCAzLjcxNyA2LjY3NiA3LjQzOCAxMC4wNzEgMTEuMTA0IDEuMjY4IDEuMzY5Ljk3MiAyLjMtLjQyNCAzLjMxNS01LjM1OSAzLjg5NS0xMC42ODcgNy44MzMtMTYuMDEgMTEuNzc4LTEuMTk2Ljg4Ny0yLjMzNyAxLjEwOS0zLjMwNC0uMjAxLTEuMDY2LTEuNDQ1LS4wOC0yLjMwNSAxLjAyNi0zLjExNCAzLjk1NS0yLjg5MyA3LjkwMy01Ljc5OCAxMS44MzQtOC43MjVDMjMuODY1IDI0LjgzIDI0LjU5NSAyNC4yNjcgMjUuMDU3IDIzLjkyMnpNMjEuNzUgMzdDMjAuNjI1IDM3IDIwIDM2IDIwIDM1cy42MjUtMiAxLjc1LTJjNC4yMjQgMCA2LjExMiAwIDkuNSAwIDEuMTI1IDAgMS43NSAxIDEuNzUgMnMtLjYyNSAyLTEuNzUgMkMyOS4xMjUgMzcgMjUgMzcgMjEuNzUgMzd6Ij48L3BhdGg+PC9zdmc+"
+                        /> Powershell
+                    </p>
+                    <p class="skilllist"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjNWQ0MDM3IiBkPSJNNDIsMTcuM0M0MiwzNy44LDI0LDQ0LDI0LDQ0UzYsMzcuOCw2LDE3LjNjMC0yLjUsMC4yLTQuNiwwLjQtNi4zYzAuMy0yLjUsMi00LjUsNC40LTUuMSBDMTMuOSw1LDE4LjgsNCwyNCw0czEwLjEsMSwxMy4zLDEuOWMyLjQsMC42LDQuMSwyLjcsNC40LDUuMUM0MS44LDEyLjcsNDIsMTQuOSw0MiwxNy4zeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0Y2FmNTAiIGQ9Ik0yNCw3YzQuOSwwLDkuNSwxLDEyLjUsMS44YzEuMiwwLjMsMiwxLjMsMi4yLDIuNmMwLjIsMS45LDAuMywzLjksMC4zLDUuOWMwLDE1LjYtMTEuNSwyMS45LTE1LDIzLjQgYy0zLjUtMS42LTE1LTcuOS0xNS0yMy40YzAtMiwwLjEtNCwwLjMtNS45YzAuMS0xLjMsMS0yLjMsMi4yLTIuNkMxNC41LDgsMTkuMSw3LDI0LDcgTTI0LDRjLTUuMiwwLTEwLjEsMS0xMy4zLDEuOSBDOC40LDYuNSw2LjYsOC42LDYuNCwxMUM2LjIsMTIuNyw2LDE0LjksNiwxNy4zQzYsMzcuOCwyNCw0NCwyNCw0NHMxOC02LjIsMTgtMjYuN2MwLTIuNS0wLjItNC42LTAuNC02LjNjLTAuMy0yLjUtMi00LjUtNC40LTUuMSBDMzQuMSw1LDI5LjIsNCwyNCw0TDI0LDR6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2RjZWRjOCIgZD0iTTIzIDI4SDI1VjM2SDIzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0Y2FmNTAiIGQ9Ik0yNCwxMGMwLDAtNiw1LTYsMTNjMCw1LjIsMy4zLDguNSw1LDEwbDEtM2wxLDNjMS43LTEuNSw1LTQuOCw1LTEwQzMwLDE1LDI0LDEwLDI0LDEweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4MWM3ODQiIGQ9Ik0yNCwxMGMwLDAtNiw1LTYsMTNjMCw1LjIsMy4zLDguNSw1LDEwbDEtM1YxMHoiPjwvcGF0aD48L3N2Zz4="
+                        /> MongoDb
+                    </p>
+                    <p class="skilllist"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDNBOUY0IiBkPSJNNiwxMGMwLTIuMjA5LDEuNzkxLTQsNC00aDI4YzIuMjA5LDAsNCwxLjc5MSw0LDR2MjhjMCwyLjIwOS0xLjc5MSw0LTQsNEgxMGMtMi4yMDksMC00LTEuNzkxLTQtNFYxMHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDIwRjE2IiBkPSJNMjAuMDE2LDE5LjE3NGgtMi4wMDJ2NC40MzRoMS45NzNjMC41NDcsMCwwLjk3LTAuMTc5LDEuMjctMC41MzdzMC40NDktMC44NzksMC40NDktMS41NjNjMC0wLjcxLTAuMTUzLTEuMjc0LTAuNDU5LTEuNjk0UzIwLjUzLDE5LjE4MSwyMC4wMTYsMTkuMTc0eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMjBGMTYiIGQ9Ik05LDl2MzBoMzBWOUg5eiBNMjMuMzY1LDI0Ljc4OUMyMi41MzksMjUuNTk3LDIxLjM5MywyNiwxOS45MjgsMjZoLTEuOTE0djVoLTIuODcxVjE2Ljc4MWg0Ljg0NGMxLjQwNiwwLDIuNTI4LDAuNDM3LDMuMzY0LDEuMzA5czEuMjU1LDIuMDA1LDEuMjU1LDMuMzk4UzI0LjE5MiwyMy45ODEsMjMuMzY1LDI0Ljc4OXogTTMyLjY4MiwzMC4zMzZjLTAuNzA5LDAuNTczLTEuNjQxLDAuODU5LTIuNzkzLDAuODU5Yy0wLjc3NSwwLTEuNDU5LTAuMTUxLTIuMDUxLTAuNDU0cy0xLjA1Ny0wLjcyNS0xLjM5Mi0xLjI2NXMtMC41MDMtMS4xMjMtMC41MDMtMS43NDhoMi42MjdjMC4wMTQsMC40ODEsMC4xMjUsMC44NDMsMC4zMzcsMS4wODRzMC41NTgsMC4zNjEsMS4wNCwwLjM2MWMwLjc0MiwwLDEuMTEzLTAuMzM1LDEuMTEzLTEuMDA2YzAtMC4yMzQtMC4xMTItMC40NTEtMC4zMzctMC42NDlTMzAsMjcuMDUyLDI5LjIyNSwyNi43MTNjLTEuMTM5LTAuNDYyLTEuOTIyLTAuOTQtMi4zNDktMS40MzZzLTAuNjQtMS4xMS0wLjY0LTEuODQ2YzAtMC45MjUsMC4zMzQtMS42ODgsMS4wMDEtMi4yOXMxLjU1Mi0wLjkwMywyLjY1MS0wLjkwM2MxLjE1OCwwLDIuMDg2LDAuMywyLjc4MywwLjg5OHMxLjA0NSwxLjQwMywxLjA0NSwyLjQxMmgtMi43NjRjMC0wLjg1OS0wLjM1Ny0xLjI4OS0xLjA3NC0xLjI4OWMtMC4yOTMsMC0wLjUzMywwLjA5MS0wLjcyMywwLjI3M3MtMC4yODMsMC40MzctMC4yODMsMC43NjJjMCwwLjIzNCwwLjEwNCwwLjQ0MSwwLjMxMywwLjYyczAuNjk5LDAuNDM1LDEuNDc1LDAuNzY3YzEuMTI3LDAuNDE3LDEuOTIyLDAuODgxLDIuMzg4LDEuMzkyczAuNjk4LDEuMTc0LDAuNjk4LDEuOTg3QzMzLjc0NiwyOS4wMDUsMzMuMzkxLDI5Ljc2MywzMi42ODIsMzAuMzM2eiI+PC9wYXRoPjwvc3ZnPg=="
+                        /> Photoshop
+                    </p>
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <p class="minihead">Works</p>
+                <hr>
+            </div>
+        </div>
 
-
+    </div>
 </body>
 
 </html>
