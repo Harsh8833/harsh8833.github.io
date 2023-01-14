@@ -577,8 +577,30 @@ section {
     transform: translateX(100%);
     animation-name: slidelogo2;
   }
+ 
   
   .brand-wheel:hover .brand-slide {
+    animation-play-state: paused;
+  }
+
+  .brand-slide-rev {
+    flex-shrink: 0;
+    position: absolute;
+    animation-name: slidelogorev;
+    animation-duration: var(--animationspeed);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .brand-slide-rev.delay {
+    transform: translateX(100%);
+    animation-name: slidelogorev2;
+  }
+
+  .brand-wheel:hover .brand-slide-rev {
     animation-play-state: paused;
   }
   
@@ -589,6 +611,25 @@ section {
     animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
     padding: 0 20px 0 20px;
   }
+
+
+
+@keyframes slidelogorev {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+@keyframes slidelogorev2 {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
   
   @keyframes slidelogo {
     from {
@@ -607,22 +648,6 @@ section {
     }
   }
 
-  @keyframes revslidelogo {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0%);
-    }
-  }
-  @keyframes revslidelogo2 {
-    from {
-      transform: translateX(0%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
   
 
 
