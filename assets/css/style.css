@@ -408,9 +408,11 @@ section {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: -10px;
     position: relative;
     color: #3c87cc;
+    z-index: -1;
 }
 
 .section-title h2::before {
@@ -479,50 +481,6 @@ section {
 
 
 /*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-
-.facts .count-box {
-    padding: 30px 30px 25px 30px;
-    margin-top: 30px;
-    width: 100%;
-    position: relative;
-    text-align: center;
-    background: #fff;
-}
-
-.facts .count-box i {
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 24px;
-    background: #0563bb;
-    color: #fff;
-    border-radius: 50px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-}
-
-.facts .count-box span {
-    font-size: 36px;
-    display: block;
-    font-weight: 600;
-    color: #011426;
-}
-
-.facts .count-box p {
-    padding: 0;
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-}
-
-
-/*--------------------------------------------------------------
 # skills
 --------------------------------------------------------------*/
 @keyframes fade-in {
@@ -533,6 +491,30 @@ section {
       opacity: 1;
     }
   }
+  .logo-div:hover .skill-name {
+    opacity: 1;
+    -webkit-transform: translateY(calc(-100% - .5rem));
+    transform: translateY(calc(-100% - .5rem))
+}
+
+  .skill-name{
+    background-color: rgba(0,0,0,.85);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1rem;
+    opacity: 0;
+    padding: 0.5rem 0.625rem;
+    pointer-events: none;
+    position: absolute;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    transition: opacity 125ms cubic-bezier(.25,.46,.45,.94),-webkit-transform .25s cubic-bezier(.19,1,.22,1);
+    transition: opacity 125ms cubic-bezier(.25,.46,.45,.94),transform .25s cubic-bezier(.19,1,.22,1);
+    transition: opacity 125ms cubic-bezier(.25,.46,.45,.94),transform .25s cubic-bezier(.19,1,.22,1),-webkit-transform .25s cubic-bezier(.19,1,.22,1);
+    white-space: nowrap;
+    }
   
 
   .brand-wheel {
@@ -541,10 +523,14 @@ section {
     display: flex;
     overflow: hidden;
     position: relative;
-    height: 100px;
+    height: 120px;
   
     --animationspeed: 45s;
     --animationdelay: calc(var(--animationspeed) / 2);
+  }
+
+  .brand-wheel img{
+    height: 40px;
   }
   
   .brand-wheel::before {
@@ -597,8 +583,9 @@ section {
   }
   
   .logo-div {
-    display: inline-flex;
+    display: flex;
     align-self: center;
+    justify-content: center;
     animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
     padding: 0 20px 0 20px;
   }
