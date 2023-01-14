@@ -668,6 +668,10 @@ section {
     padding-left: 20px;
 }
 
+.resume .resume-item em {
+    font-weight: 600;
+}
+
 .resume .resume-item ul li {
     padding-bottom: 10px;
 }
@@ -792,6 +796,17 @@ section {
     border-right: 3px solid #d7dce1;
     transition: all 0.5s ease 0s;
     z-index: 9994;
+}
+
+.view-project{
+    margin-top: 40px;
+    padding: 10px;
+    padding-bottom: 4px;
+    display: inline-flex;
+    stroke-width: 4px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
